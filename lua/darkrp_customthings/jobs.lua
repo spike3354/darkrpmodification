@@ -17,7 +17,25 @@ http://wiki.darkrp.com/index.php/DarkRP:CustomJobFields
 
 Add jobs under the following line:
 ---------------------------------------------------------------------------]]
-
+Staff On Duty = DarkRP.createJob("Staff On Duty", {
+   color = Color(248, 238, 238, 255),
+   model = {"models/player/combine_super_soldier.mdl"},
+   description = [[You patrol the area make sure no one is rdming or doing dumb stuff]],
+   weapons = {"weapon_nyangun","weapon_lightsaber"},
+   command = "Satff On Duty",
+   max = 5,
+   salary = 10000,
+   admin = 1,
+   vote = false,						
+   hasLicense = true,
+   candemote = false,
+   -- CustomCheck
+   medic = false,
+   chief = false,
+   mayor = false,
+   hobo = false,
+   cook = false,
+   category = "staff On Duty",
 
 
 
